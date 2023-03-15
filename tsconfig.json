@@ -16,12 +16,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "src",
-    "types": ["node"],
+    // "types": ["node"],
     "paths": {
       "@/*": ["./src/*"],
       "@/components*": ["components/*"],
       "@/pages*": ["pages/*"]
-    }
+    },
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

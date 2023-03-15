@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Route } from 'react-router-dom';
 import { RouteType } from './config';
 import PageWrapper from '@/components/Layouts/PageWrapper';
